@@ -1,5 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "exclude": [
+    "*.test.ts"
+  ],
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
     "outDir": "lib",
     // Recommended:
@@ -14,7 +20,6 @@
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
     "target": "ES2020", // Node.js 14
     "lib": [
       "ES2020"
