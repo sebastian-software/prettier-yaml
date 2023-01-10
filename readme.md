@@ -13,10 +13,16 @@ A small solution for prettifying YAML files using `yaml` and `prettier`. One thi
 
 ## Documentation
 
-Example:
+Usage when installed:
 
 ```tsx
 prettier-yaml <glob>
+```
+
+Usage using `npx` (without installing):
+
+```tsx
+npx prettier-yaml <glob>
 ```
 
 ## License
