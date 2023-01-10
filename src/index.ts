@@ -1,11 +1,10 @@
+#!/usr/bin/env node
+
 import {
   parseDocument,
   isCollection,
   isScalar,
-  isDocument,
-  isPair,
-  Node,
-  Scalar
+  isPair
 } from "yaml"
 import glob from "fast-glob"
 import { readFileSync, writeFileSync } from "fs"
