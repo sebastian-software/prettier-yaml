@@ -6,7 +6,9 @@
   "scripts": {
     "build": "rimraf lib && tsc",
     "watch": "rimraf lib && tsc --watch",
-    "format": "prettier --write src/*.ts"
+    "format": "prettier --write src/*.ts",
+    "test": "jest",
+    "release": "release-it"
   },
   "author": {
     "name": "Sebastian Werner",
