@@ -1,6 +1,6 @@
 {
   "name": "prettier-yaml",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "bin": "lib/index.js",
   "scripts": {
@@ -21,9 +21,15 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns": [ "/node_modules/", "./lib" ]
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "./lib"
+    ]
   },
-  "keywords": ["yaml", "prettier"],
+  "keywords": [
+    "yaml",
+    "prettier"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "fast-glob": "^3.2.12",
